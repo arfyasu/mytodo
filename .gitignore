@@ -3,8 +3,6 @@ capybara-*.html
 .rspec
 /log
 /tmp
-/db/*.sqlite3
-/db/*.sqlite3-journal
 /public/system
 /coverage/
 /spec/tmp
@@ -23,9 +21,6 @@ config/secrets.yml
 # these should all be checked in to normalise the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
-
 # if using bower-rails ignore default bower_components path bower.json files
 /vendor/assets/bower_components
 *.bowerrc
@@ -33,3 +28,7 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Ignore intelliJ settings
+.idea/
+mytodo.iml
