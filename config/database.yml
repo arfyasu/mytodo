@@ -19,7 +19,7 @@ default: &default
 
 development:
   <<: *default
-  database: mytodo_development
+  database: mytodo_devel
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: mytodo_production
+  database: mytodo
   username: mytodo
   password: <%= ENV['MYTODO_DATABASE_PASSWORD'] %>
