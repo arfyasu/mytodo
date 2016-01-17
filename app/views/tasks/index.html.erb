@@ -18,7 +18,7 @@
       <tr>
         <td><%= link_to task.id, task_path(task) %></td>
         <td><%= task.name %></td>
-        <td><%= task.deadline %></td>
+        <td><%=l task.deadline %></td>
         <td><%= task.memo %></td>
         <td><%=l task.created_at %></td>
         <td>
